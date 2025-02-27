@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
+import sklearn
 
 # Load the trained model
 with open("salary_model.pkl", "rb") as file:
